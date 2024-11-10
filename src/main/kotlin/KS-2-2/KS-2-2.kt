@@ -1,4 +1,4 @@
-package les_2_2
+package `KS-2-2`
 
 fun main() {
     val employeeCount = 50
