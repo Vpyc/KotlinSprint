@@ -1,8 +1,8 @@
-package lesson_2
+package `KS-1-2`
 
 fun main() {
     val ordersCount: Int = 75
-    val thankMessage: String = "Спасибо за покупку!"
+    val thankMessage: String = "РЎРїР°СЃРёР±Рѕ Р·Р° РїРѕРєСѓРїРєСѓ!"
 
     println(ordersCount)
     println(thankMessage)
