@@ -17,7 +17,7 @@ fun main() {
 
     val sumOfMinutes = departureMinutes + travelTimeInRemainingMinutes
 
-    val arrivalHours = if (sumOfMinutes > 60) departureHours + travelTimeInHours + 1 else departureHours + travelTimeInHours
+    val arrivalHours = departureHours + travelTimeInHours + sumOfMinutes / MINUTES_DIVIDER
     val arrivalMinutes = (sumOfMinutes) % MINUTES_DIVIDER
 
     println("Время прибытия - %02d:%02d".format(arrivalHours, arrivalMinutes))
